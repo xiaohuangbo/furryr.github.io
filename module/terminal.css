@@ -1,0 +1,13 @@
+.body {
+  background-color: black;
+}
+
+.console {
+  color: white;
+  background-color: black;
+  font-family: Consolas;
+  font-size: large;
+  border: none;
+  outline: none;
+  overflow: auto;
+}
