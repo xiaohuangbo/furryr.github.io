@@ -116,7 +116,7 @@ async function app_blog(term, cmd) {
             );
             term.write('正文：\n');
             const s = document.createElement('div');
-            s.innerHTML = (await val.json()).content;
+            s.innerHTML = await val.json();
             term.write(s);
             return 0;
           }
